@@ -1,0 +1,153 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: #ffffff;
+    margin: 0;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#logo-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-section-title {
+    font-size: 30px;
+    margin: 20px 0 40px 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 6px solid white;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-table {
+    height: 200px;
+    object-position: center;
+}
+
+#gift-img-table:hover {
+    background-image: url("images/table.webp");
+}
+
+#gift-img-voice:hover {
+    background-image: url("images/voice.gif");
+}
+
+#gift-img-intro {
+    height: 220px;
+    object-position: center;
+}
+
+#gift-img-intro:hover {
+    background-image: url("images/intro.gif");
+}
+
+#gift-img-silly {
+    height: 300px;
+    object-position: center;
+}
+
+#gift-img-silly:hover {
+    background-image: url("images/silly.gif");
+}
+
+#gift-img-walking:hover {
+    background-image: url("images/walking.gif");
+}
+
+#text-section {
+    width: 360px;
+    margin: 40px auto 20px;
+    background-color: #a2d2ff;
+    padding: 20px;
+    border: 6px solid white;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: #EFB0C9;
+    margin: 10px;
+    padding: 5px 10px;
+    font-family: 'Happy Monkey', cursive;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: palevioletred;
+}
+
+.italics {
+    font-style: italic;
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
